@@ -1,0 +1,19 @@
+{
+  "do_train": false,
+  "do_test": false,
+  "n_gpu": 1,
+  "seed": 123456,
+  "hidden_size": 200,
+  "input_size": 132,
+  "lr": 0.0001,
+  "weight_decay": 0.001,
+  "dropout_rate": 0.3,
+  "epochs": 100,
+  "num_steps": 8,
+  "train_batch_size": 32,
+  "test_batch_size": 32,
+  "max_patience": 5,
+  "val_every": 100,
+  "log_every": 20,
+  "dataset": "bigvul"
+}
